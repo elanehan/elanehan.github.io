@@ -245,16 +245,15 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'September 2023 - Present',
+    location: 'University of Massachusetts Amherst (UMASS)',
+    title: 'M.S. in Computer Science',
+    content: <p>Courses: Reinforcement Learning, Computer and Network Security, Game Programming.</p>,
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2018 - January 2022',
+    location: 'National Chung Cheng University',
+    title: 'B.S. in Computer Science and Information Engineering',
+    content: <><p>．Overall GPA: 4.16 / 4.3 (3.84 / 4.0).</p> <p>．Last 60 Credits: 4.28 / 4.3 (3.98 / 4.0).</p> <p>．Awards: Dean's List Award (top 5%).</p> <p>．Courses: Software Engineering, Objected-oriented Programming, Introduction to Operating System, Introduction to Algorithm, Data Science, Machine Learning, Neural Network.</p></>
   },
 ];
 
