@@ -249,6 +249,7 @@ export const education: TimelineItem[] = [
     location: 'University of Massachusetts Amherst (UMASS)',
     title: 'M.S. in Computer Science',
     content: <p>Courses: Reinforcement Learning, Computer and Network Security, Game Programming.</p>,
+  },
   {
     date: 'September 2018 - January 2022',
     location: 'National Chung Cheng University',
