@@ -259,30 +259,37 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
-  {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+{
+    date: 'March 2022 - July 2023',
+    location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
+    title: 'Research Assistant',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Applied graphical representation on the sequence and achieved over 85% accuracy in the detection of eccDNAs on most data using neural network.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2021 - February 2022',
+    location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
+    title: 'Undergraduate Research Internship',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Developed a database for eccDNAs.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2021 - February 2022',
+    location: 'National Chung Cheng University, Program Design, Department of Computer Science and Information Engineering',
+    title: 'Teaching Assistant',
+    content: (
+      <p>
+        Advised 40+ Program Design students on weekly assignments, and designed web pages to illustrate the concepts in weekly assignments.
       </p>
     ),
   },
 ];
-
 /**
  * Testimonial section
  */
