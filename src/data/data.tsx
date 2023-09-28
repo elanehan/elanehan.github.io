@@ -37,8 +37,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Yi Ting Han's Personal Website',
+  description: "Website for displaying Elane's Experience.",
 };
 
 /**
@@ -72,7 +72,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://www.canva.com/design/DAFK-YEVfBg/V_qWSCZ_lLU-SDuSEymsGg/edit?utm_content=DAFK-YEVfBg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
