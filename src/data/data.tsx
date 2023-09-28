@@ -37,7 +37,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Yi Ting Han's Personal Website',
+  title: "Yi Ting Han's Personal Website",
   description: "Website for displaying Elane's Experience.",
 };
 
