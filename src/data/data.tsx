@@ -11,7 +11,7 @@ import porfolioImage1 from '../images/portfolio/por1.jpg';
 import porfolioImage2 from '../images/portfolio/por2.jpg';
 import porfolioImage3 from '../images/portfolio/por3.png';
 import porfolioImage4 from '../images/portfolio/por4.png';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage5 from '../images/portfolio/por5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic1.jpg';
 import testimonialImage from '../images/testimonial.webp';
