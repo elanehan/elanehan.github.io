@@ -288,7 +288,6 @@ export const experience: TimelineItem[] = [
         <><p>• Provided guidance to 40+ Program Design students on their weekly assignments, resulting in positive feedback from students regarding the effectiveness of the advice.</p>
         <p>• Developed web pages to facilitate the instructor's visual representation of key concepts in weekly assignments.</p></>
     ),
-    ),
   },
 ];
 /**
