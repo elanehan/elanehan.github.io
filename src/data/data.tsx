@@ -123,14 +123,18 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Shell Script',
-        level: 6,
-      },
-      {
-        name: 'Tensorflow',
         level: 7,
       },
       {
+        name: 'Tensorflow',
+        level: 8,
+      },
+      {
         name: 'Keras',
+        level: 8,
+      },
+      {
+        name: 'Unity',
         level: 7,
       },
     ],
