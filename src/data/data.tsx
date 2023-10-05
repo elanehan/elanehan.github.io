@@ -12,7 +12,6 @@ import porfolioImage2 from '../images/portfolio/por2.jpg';
 import porfolioImage3 from '../images/portfolio/por3.png';
 import porfolioImage4 from '../images/portfolio/por4.png';
 import porfolioImage5 from '../images/portfolio/por5.png';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic1.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -167,14 +166,8 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'A little astronaut on a strange planet',
     description: 'This project is an assignment from course: Game Programming. By creating a terrain, a 3D primitive, adjusting lighting, and using and modifying chracter controller through the Unity Engine, the player can control the astronaut character to explore the planet I built and eventually reach the end zone.',
-    url: 'https://umass-my.sharepoint.com/:v:/g/personal/yhan_umass_edu/EfiuZevQriBOmrIW8Yr1UmEBgQWToGcomCDWYe3jIxbxUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=adrpZi',
+    url: 'https://umass-my.sharepoint.com/:v:/g/personal/yhan_umass_edu/EdJnZNTqvHJEsLk5BA35ddgBJSUwVASb5h0HnNVk2DwYzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=tTUU1m',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
   },
 ];
 
