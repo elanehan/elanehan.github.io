@@ -85,11 +85,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: (
-    <><p>I am pursuing a master's degree in Computer Science at the University of Massachusetts Amherst. </p>
-      <p>Prior to this, I gained practical experience as a Research Assistant for over a year. During this time, I was deeply involved in developing data pipelines and utilizing neural networks for data analysis.</p>
-      <p>Throughout my career, I dedicated myself to various projects, including successfully improving and deploying an object-detection model on a real-time Mixed Reality (MR) device, enhancing my passion for innovative technological solutions.</p>
-      </>),
+  description: 
+    'I am pursuing a master's degree in Computer Science at the University of Massachusetts Amherst.
+      Prior to this, I gained practical experience as a Research Assistant for over a year. During this time, I was deeply involved in developing data pipelines and utilizing neural networks for data analysis.
+      Throughout my career, I dedicated myself to various projects, including successfully improving and deploying an object-detection model on a real-time Mixed Reality (MR) device, enhancing my passion for innovative technological solutions.',
   aboutItems: [
     {label: 'Location', text: 'Amherst, MA', Icon: MapIcon},
     {label: 'Study', text: 'University of Massachusetts Amherst (UMASS)', Icon: AcademicCapIcon},
