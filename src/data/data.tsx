@@ -61,7 +61,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am actively seeking <strong className="text-stone-100">software engineering internship</strong> starting from 2024.
+        I am actively seeking <strong className="text-stone-100">software engineering internship</strong>!.
       </p>
     </>
   ),
@@ -165,9 +165,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'A little astronaut on a strange planet',
+    description: 'This project is an assignment from course: Game Programming. By creating a terrain, a 3D primitive, adjusting lighting, and using and modifying chracter controller through the Unity Engine, the player can control the astronaut character to explore the planet I built and eventually reach the end zone.',
+    url: 'https://umass-my.sharepoint.com/:v:/g/personal/yhan_umass_edu/EfiuZevQriBOmrIW8Yr1UmEBgQWToGcomCDWYe3jIxbxUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=adrpZi',
     image: porfolioImage5,
   },
   {
