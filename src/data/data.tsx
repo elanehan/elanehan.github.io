@@ -97,9 +97,23 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
+ {
     name: 'Spoken languages',
     skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'French',
+        level: 4,
+      },
+      {
+        name: 'Spanish',
+        level: 3,
+      },
+    ],
+  },
   {
     name: 'Frontend development',
     skills: [
@@ -131,6 +145,23 @@ export const skills: SkillGroup[] = [
       {
         name: 'Golang',
         level: 4,
+      },
+    ],
+  },
+  {
+    name: 'Mobile development',
+    skills: [
+      {
+        name: 'React Native',
+        level: 9,
+      },
+      {
+        name: 'Flutter',
+        level: 4,
+      },
+      {
+        name: 'Swift',
+        level: 3,
       },
     ],
   },
