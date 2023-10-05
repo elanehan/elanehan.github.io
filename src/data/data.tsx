@@ -247,16 +247,16 @@ export const education: TimelineItem[] = [
     date: 'September 2023 - Present',
     location: 'University of Massachusetts Amherst (UMASS)',
     title: 'M.S. in Computer Science',
-    content: <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100">• Courses:</strong> Reinforcement Learning, Computer and Network Security, Game Programming.</p>,
+    content: <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100 text-black">• Courses:</strong> Reinforcement Learning, Computer and Network Security, Game Programming.</p>,
   },
   {
     date: 'September 2018 - January 2022',
     location: 'National Chung Cheng University',
     title: 'B.S. in Computer Science and Information Engineering',
-    content: <><p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100">• Overall GPA:</strong> 4.16 / 4.3 (3.84 / 4.0).</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100">• Last 60 Credits:</strong> 4.28 / 4.3 (3.98 / 4.0).</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100">• Awards:</strong> Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100">• Courses:</strong> Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
+    content: <><p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100 text-black">• Overall GPA:</strong> 4.16 / 4.3 (3.84 / 4.0).</p> 
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100 text-black">• Last 60 Credits:</strong> 4.28 / 4.3 (3.98 / 4.0).</p> 
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100 text-black">• Awards:</strong> Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> 
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong className="text-stone-100 text-black">• Courses:</strong> Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
   },
 ];
 
