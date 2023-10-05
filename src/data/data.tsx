@@ -9,7 +9,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/por1.jpg';
 import porfolioImage2 from '../images/portfolio/por2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage3 from '../images/portfolio/por3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
@@ -153,9 +153,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Improve Gender, Race, and Age Classification via Supervised Contrastive Learning',
+    description: 'We applied a multi-output supervised contrastive loss on Resnet-50. Our method underwent rigorous evaluation on three recent datasets—FairFace, UTKFace, and the Asian Face Age Dataset (AFAD)—for gender, age, and race classification. The results clearly indicate a significant improvement in accuracy across the majority of tasks within all datasets, highlighting the efficacy of our approach.',
+    url: 'https://drive.google.com/file/d/1FDnICOH48_Kd4Svj4hVKmqeK7tRPatB_/view?usp=sharing',
     image: porfolioImage3,
   },
   {
