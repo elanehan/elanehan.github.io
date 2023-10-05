@@ -72,7 +72,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://www.canva.com/design/DAFK-YEVfBg/V_qWSCZ_lLU-SDuSEymsGg/edit?utm_content=DAFK-YEVfBg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+      href: 'https://umass-my.sharepoint.com/:b:/g/personal/yhan_umass_edu/Ec4Qa3Ju8_1JtPTzT8tioswBgUkNkV2W-o9SaxRlecxDtg?e=gCqVgD',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
