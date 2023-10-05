@@ -8,7 +8,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/por1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/por2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -147,9 +147,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Traditional Chinese Scene Text Recognition',
+    description: 'The objective of this project is to accurately identify the precise location of Traditional Chinese characters within various scenes. To achieve this, we have employed the YOLOv5 model as our pretrained framework, subsequently fine-tuning it using our extensive dataset. This strategic approach enables us to achieve a high level of proficiency in detecting Traditional Chinese characters within the images, underscoring our commitment to precision and effectiveness in this endeavor.',
+    url: 'https://docs.google.com/document/d/113NB530qxOMLhgeZQPucOGskAsg6gVOl/edit?usp=sharing&ouid=109274637105206472637&rtpof=true&sd=true',
     image: porfolioImage2,
   },
   {
