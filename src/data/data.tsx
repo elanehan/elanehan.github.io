@@ -255,8 +255,8 @@ export const education: TimelineItem[] = [
     title: 'B.S. in Computer Science and Information Engineering',
     content: <><p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Overall GPA:</strong> 4.16 / 4.3 (3.84 / 4.0).</p> 
       <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Last 60 Credits:</strong> 4.28 / 4.3 (3.98 / 4.0).</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong">• Awards:</strong> Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong">• Courses:</strong> Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Awards:</strong> Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> 
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Courses:</strong> Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
   },
 ];
 
