@@ -87,7 +87,6 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am pursuing a master's degree in Computer Science at the University of Massachusetts Amherst. 
 Prior to this, I gained practical experience as a Research Assistant for over a year. During this time, I was deeply involved in developing data pipelines and utilizing neural networks for data analysis. 
-
 Throughout my career, I dedicated myself to various projects, including successfully improving and deploying an object-detection model on a real-time Mixed Reality (MR) device, enhancing my passion for innovative technological solutions.`,
   aboutItems: [
     {label: 'Location', text: 'Amherst, MA', Icon: MapIcon},
@@ -255,7 +254,7 @@ export const education: TimelineItem[] = [
     date: 'September 2018 - January 2022',
     location: 'National Chung Cheng University',
     title: 'B.S. in Computer Science and Information Engineering',
-    content: <><p>．Overall GPA: 4.16 / 4.3 (3.84 / 4.0).</p> <p>．Last 60 Credits: 4.28 / 4.3 (3.98 / 4.0).</p> <p>．Awards: Dean's List Award (top 5%).</p> <p>．Courses: Software Engineering, Objected-oriented Programming, Introduction to Operating System, Introduction to Algorithm, Data Science, Machine Learning, Neural Network.</p></>
+    content: <><p>• Overall GPA: 4.16 / 4.3 (3.84 / 4.0).</p> <p>• Last 60 Credits: 4.28 / 4.3 (3.98 / 4.0).</p> <p>• Awards: Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> <p>• Courses: Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
   },
 ];
 
@@ -265,9 +264,11 @@ export const experience: TimelineItem[] = [
     location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
     title: 'Research Assistant',
     content: (
-      <p>
-        Applied graphical representation on the sequence and achieved over 85% accuracy in the detection of eccDNAs on most data using neural network.
-      </p>
+        <p>• Applied graphical representation on the sequence and achieved over 85% accuracy in the detection of eccDNAs on most data using neural network.</p>
+        <p>• Created a pipeline to detect eccDNAs from single-cell ATAC-seq data using Python.</p>
+        <p>• Collaborated with people from a biology background to analyze eccDNAs using single-cell ATAC-seq data and single-cell RNA-seq data, which contained 74k+ cells.</p>
+        <p>• Collaborated to develop a database containing eccDNAs from 1.4k+ Taiwanese people.</p>
+        <p>• Optimized the eccDNA detection pipeline using BWA2; reduced processing time by 84%. </p>
     ),
   },
   {
@@ -275,9 +276,8 @@ export const experience: TimelineItem[] = [
     location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
     title: 'Undergraduate Research Internship',
     content: (
-      <p>
-        Developed a database for eccDNAs.
-      </p>
+        <p>• Developed a database for eccDNAs using PostgreSQL.</p>
+        <p>• Received positive feedback for demonstrating strong teamwork skills and a proactive approach in addressing new challenges from the advisor and team members.</p>
     ),
   },
   {
@@ -285,9 +285,9 @@ export const experience: TimelineItem[] = [
     location: 'National Chung Cheng University, Program Design, Department of Computer Science and Information Engineering',
     title: 'Teaching Assistant',
     content: (
-      <p>
-        Advised 40+ Program Design students on weekly assignments, and designed web pages to illustrate the concepts in weekly assignments.
-      </p>
+        <p>• Provided guidance to 40+ Program Design students on their weekly assignments, resulting in positive feedback from students regarding the effectiveness of the advice.</p>
+        <p>• Developed web pages to facilitate the instructor's visual representation of key concepts in weekly assignments.</p>
+    ),
     ),
   },
 ];
