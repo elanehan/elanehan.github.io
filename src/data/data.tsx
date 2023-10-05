@@ -147,7 +147,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Real-time Product Information in Mixed Reality (MR) through Object Detection',
-    description: 'This project utilizes the Microsoft HoloLens MR device, employing deep learning for real-time product detection and recognition via the carrier's camera. By matching object features with our backend database, it instantly provides product information on the carrier's display, enhancing the consumer experience.',
+    description: 'This project utilizes the Microsoft HoloLens MR device, employing deep learning for real-time product detection and recognition via the camera. By matching object features with our backend database, It provides product information instantly in front of the eyes of the customers, enhancing the consumer experience.',
     url: 'https://docs.google.com/document/d/1VQzwUrm0Fdn5htG9QQANOlNisgwKBFoC/edit?usp=sharing&ouid=109274637105206472637&rtpof=true&sd=true',
     image: porfolioImage1,
   },
