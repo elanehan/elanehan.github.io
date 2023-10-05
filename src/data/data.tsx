@@ -10,7 +10,7 @@ import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/por1.jpg';
 import porfolioImage2 from '../images/portfolio/por2.jpg';
 import porfolioImage3 from '../images/portfolio/por3.png';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage4 from '../images/portfolio/por4.png';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic1.jpg';
@@ -159,9 +159,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'First-in-First-out Page Replacement algorithm Implementation in Linux System',
+    description: 'We successfully implemented the First-In-First-Out (FIFO) algorithm for page frame replacement within the Linux system. This implementation was rigorously tested using a dedicated user space testing program. This project provided valuable insights into memory management via paging, offering an in-depth examination of page tables and the intricacies of virtual address space.',
+    url: 'https://docs.google.com/document/d/12irlVfbiEpU5OnArP5ap0nf95lAZ3FK13HTVvDO4QV8/edit?usp=sharing',
     image: porfolioImage4,
   },
   {
