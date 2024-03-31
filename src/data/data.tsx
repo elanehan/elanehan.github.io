@@ -108,13 +108,33 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'R',
-        level: 5,
+        level: 7,
+      },
+      {
+        name: 'Typescript',
+        level: 7,
+      },
+      {
+        name: 'MATLAB',
+        level: 7,
+      },
+      {
+        name: 'JavaScript',
+        level: 7,
       },
     ],
   },
   {
     name: 'Frameworks/Tools',
     skills: [
+      {
+        name: 'React',
+        level: 7,
+      },
+      {
+        name: 'Django',
+        level: 6,
+      },
       {
         name: 'Shell Script',
         level: 7,
