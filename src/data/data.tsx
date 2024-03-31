@@ -211,7 +211,7 @@ export const experience: TimelineItem[] = [
     content: (
         <><p>• Achieved over 85% accuracy in the detection of extrachromosomal circular DNAs (eccDNAs) on 49k+ sequence over 4 species by applying graphical representation.</p>
         <p>• Spearheaded a Python tool to detect eccDNAs from single-cell assay for transposase-accessible chromatin with sequencing (ATAC-seq) data.</p>
-        <p>• Optimized the eccDNA detection pipeline on over 14 TB whole genome sequence through data cleaning; reduced processing time by 84%. </p></>
+        <p>• Optimized the eccDNA detection pipeline for over 14 TB of whole genome sequence through data cleaning; reduced processing time by 84%. </p></>
     ),
   },
   {
