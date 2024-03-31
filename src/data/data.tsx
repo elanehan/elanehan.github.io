@@ -56,7 +56,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I am Elane (Yi Ting) Han.`,
+  name: `I am Elane (Yi-Ting) Han.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -179,7 +179,8 @@ export const education: TimelineItem[] = [
     date: 'September 2023 - Present',
     location: 'University of Massachusetts Amherst (UMASS)',
     title: 'M.S. in Computer Science',
-    content: <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Courses:</strong> Reinforcement Learning, Computer and Network Security, Game Programming.</p>,
+    content: <><p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Overall GPA:</strong> 3.9 / 4.0.</p> 
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Courses:</strong> Advanced Algorithm, Software Engineering, Reinforcement Learning, Computer and Network Security, Game Programming.</p></>
   },
   {
     date: 'September 2018 - January 2022',
@@ -188,30 +189,38 @@ export const education: TimelineItem[] = [
     content: <><p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Overall GPA:</strong> 4.16 / 4.3 (3.84 / 4.0).</p> 
       <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Last 60 Credits:</strong> 4.28 / 4.3 (3.98 / 4.0).</p> 
       <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Awards:</strong> Academic Presidential Awards (top 5%)(2018 Fall Semester, 2021 Spring Semester, Undergraduate Research Fellowship.</p> 
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Courses:</strong> Software Engineering, Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg"><strong>• Courses:</strong> Objected-oriented Programming, Operating System, Data Structure and Algorithm, Machine Learning, Neural Network.</p></>
   },
 ];
 
 export const experience: TimelineItem[] = [
 {
+    date: 'February 2024 - Present',
+    location: 'DataCore Software',
+    title: 'Software Engineer Intern',
+    content: (
+        <><p>• Collaborated with team to develop a cutting-edge web application utilizing YOLOv5 and Zero-Shot Learning to identify tattoos potentially affiliated with specific criminal syndicates or gangs.</p>
+        <p>• Established user web interfaces using JavaScript and React to initiate requests to the web application, and Django for the backend.</p>
+        <p>• Deployed infrastructure and developed server communication with Python, RESTful API. </p></>
+    ),
+  },
+{
     date: 'March 2022 - July 2023',
     location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
     title: 'Research Assistant',
     content: (
-        <><p>• Applied graphical representation on the sequence and achieved over 85% accuracy in the detection of eccDNAs on most data using neural network.</p>
-        <p>• Created a pipeline to detect eccDNAs from single-cell ATAC-seq data using Python.</p>
-        <p>• Collaborated with people from a biology background to analyze eccDNAs using single-cell ATAC-seq data and single-cell RNA-seq data, which contained 74k+ cells.</p>
-        <p>• Collaborated to develop a database containing eccDNAs from 1.4k+ Taiwanese people.</p>
-        <p>• Optimized the eccDNA detection pipeline using BWA2; reduced processing time by 84%. </p></>
+        <><p>• Achieved over 85% accuracy in the detection of extrachromosomal circular DNAs (eccDNAs) on 49k+ sequence over 4 species by applying graphical representation.</p>
+        <p>• Spearheaded a Python tool to detect eccDNAs from single-cell assay for transposase-accessible chromatin with sequencing (ATAC-seq) data.</p>
+        <p>• Optimized the eccDNA detection pipeline on over 14 TB whole genome sequence through data cleaning; reduced processing time by 84%. </p></>
     ),
   },
   {
     date: 'July 2021 - February 2022',
     location: 'Academia Sinica, Institute of Information Science, Bio-IT-Station',
-    title: 'Undergraduate Research Internship',
+    title: 'Software Engineer Internship',
     content: (
-        <><p>• Developed a database for eccDNAs using PostgreSQL.</p>
-        <p>• Received positive feedback for demonstrating strong teamwork skills and a proactive approach in addressing new challenges from the advisor and team members.</p></>
+        <><p>• Developed a database containing eccDNAs from 1.4k+ Taiwanese people using PostgreSQL.</p>
+        <p>• Collaborated with people from a biology background to analyze eccDNAs using single-cell ATAC-seq data and single-cell RNA-seq data, which contained 74k+ cells.</p></>
     ),
   },
   {
