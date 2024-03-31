@@ -216,7 +216,7 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
 {
     date: 'February 2024 - Present',
-    location: 'DataCore Software',
+    location: 'Rescue Lab Umass Amherst',
     title: 'Software Engineer Intern',
     content: (
         <><p>• Collaborated with team to develop a cutting-edge web application utilizing YOLOv5 and Zero-Shot Learning to identify tattoos potentially affiliated with specific criminal syndicates or gangs.</p>
